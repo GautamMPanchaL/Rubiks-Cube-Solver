@@ -1,0 +1,3 @@
+C:/Users/gauta/Desktop/Rubix/cmake-build-debug/CMakeFiles/Rubix.dir
+C:/Users/gauta/Desktop/Rubix/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gauta/Desktop/Rubix/cmake-build-debug/CMakeFiles/rebuild_cache.dir
