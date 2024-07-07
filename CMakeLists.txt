@@ -4,4 +4,5 @@ project(Rubix)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Rubix main.cpp
-        Model/RubiksCube.h)
+        Model/RubiksCube.h
+        Model/RubiksCube.cpp)

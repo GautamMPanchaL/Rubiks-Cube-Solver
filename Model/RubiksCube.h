@@ -58,7 +58,7 @@ public:
      *  Returns the FIRST LETTER OF A GIVEN COLOR
      *  RED = 'R', GREEN = 'G'
      */
-    static  char getColorLEtter(COLOR color);
+    static  char getColorLetter(COLOR color);
     /*
      *  RETURNS TRUE IF CURRENT CONFIGRATION IS SOLVABLE
      *  FALSE IF NOT
