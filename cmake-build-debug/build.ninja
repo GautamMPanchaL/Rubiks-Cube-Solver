@@ -61,6 +61,12 @@ build CMakeFiles/Rubix.dir/Model/RubiksCube.cpp.obj: CXX_COMPILER__Rubix_unscann
   OBJECT_DIR = CMakeFiles\Rubix.dir
   OBJECT_FILE_DIR = CMakeFiles\Rubix.dir\Model
 
+build CMakeFiles/Rubix.dir/Model/RubiksCube3dArray.cpp.obj: CXX_COMPILER__Rubix_unscanned_Debug C$:/Users/gauta/Desktop/Rubix/Model/RubiksCube3dArray.cpp || cmake_object_order_depends_target_Rubix
+  DEP_FILE = CMakeFiles\Rubix.dir\Model\RubiksCube3dArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Rubix.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rubix.dir\Model
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Rubix
@@ -69,7 +75,7 @@ build CMakeFiles/Rubix.dir/Model/RubiksCube.cpp.obj: CXX_COMPILER__Rubix_unscann
 #############################################
 # Link the executable Rubix.exe
 
-build Rubix.exe: CXX_EXECUTABLE_LINKER__Rubix_Debug CMakeFiles/Rubix.dir/main.cpp.obj CMakeFiles/Rubix.dir/Model/RubiksCube.cpp.obj
+build Rubix.exe: CXX_EXECUTABLE_LINKER__Rubix_Debug CMakeFiles/Rubix.dir/main.cpp.obj CMakeFiles/Rubix.dir/Model/RubiksCube.cpp.obj CMakeFiles/Rubix.dir/Model/RubiksCube3dArray.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Rubix.dir
