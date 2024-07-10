@@ -8,4 +8,7 @@ add_executable(Rubix main.cpp
         Model/RubiksCube.cpp
         Model/RubiksCube3dArray.cpp
         Model/RubiksCube1dArray.cpp
-        Model/RubiksCubeBitboard.cpp)
+        Model/RubiksCubeBitboard.cpp
+        Solver/DFSSolver.h
+        Solver/BFSSolver.h
+)
