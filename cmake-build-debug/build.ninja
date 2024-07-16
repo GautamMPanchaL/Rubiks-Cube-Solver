@@ -79,6 +79,36 @@ build CMakeFiles/Rubix.dir/Model/RubiksCubeBitboard.cpp.obj: CXX_COMPILER__Rubix
   OBJECT_DIR = CMakeFiles\Rubix.dir
   OBJECT_FILE_DIR = CMakeFiles\Rubix.dir\Model
 
+build CMakeFiles/Rubix.dir/PatternDatabases/NibbleArray.cpp.obj: CXX_COMPILER__Rubix_unscanned_Debug C$:/Users/gauta/Desktop/Rubix/PatternDatabases/NibbleArray.cpp || cmake_object_order_depends_target_Rubix
+  DEP_FILE = CMakeFiles\Rubix.dir\PatternDatabases\NibbleArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Rubix.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rubix.dir\PatternDatabases
+
+build CMakeFiles/Rubix.dir/PatternDatabases/PatternDatabase.cpp.obj: CXX_COMPILER__Rubix_unscanned_Debug C$:/Users/gauta/Desktop/Rubix/PatternDatabases/PatternDatabase.cpp || cmake_object_order_depends_target_Rubix
+  DEP_FILE = CMakeFiles\Rubix.dir\PatternDatabases\PatternDatabase.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Rubix.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rubix.dir\PatternDatabases
+
+build CMakeFiles/Rubix.dir/PatternDatabases/math.cpp.obj: CXX_COMPILER__Rubix_unscanned_Debug C$:/Users/gauta/Desktop/Rubix/PatternDatabases/math.cpp || cmake_object_order_depends_target_Rubix
+  DEP_FILE = CMakeFiles\Rubix.dir\PatternDatabases\math.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Rubix.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rubix.dir\PatternDatabases
+
+build CMakeFiles/Rubix.dir/PatternDatabases/CornerPatternDatabase.cpp.obj: CXX_COMPILER__Rubix_unscanned_Debug C$:/Users/gauta/Desktop/Rubix/PatternDatabases/CornerPatternDatabase.cpp || cmake_object_order_depends_target_Rubix
+  DEP_FILE = CMakeFiles\Rubix.dir\PatternDatabases\CornerPatternDatabase.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Rubix.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rubix.dir\PatternDatabases
+
+build CMakeFiles/Rubix.dir/PatternDatabases/CornerDBMaker.cpp.obj: CXX_COMPILER__Rubix_unscanned_Debug C$:/Users/gauta/Desktop/Rubix/PatternDatabases/CornerDBMaker.cpp || cmake_object_order_depends_target_Rubix
+  DEP_FILE = CMakeFiles\Rubix.dir\PatternDatabases\CornerDBMaker.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Rubix.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rubix.dir\PatternDatabases
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Rubix
@@ -87,7 +117,7 @@ build CMakeFiles/Rubix.dir/Model/RubiksCubeBitboard.cpp.obj: CXX_COMPILER__Rubix
 #############################################
 # Link the executable Rubix.exe
 
-build Rubix.exe: CXX_EXECUTABLE_LINKER__Rubix_Debug CMakeFiles/Rubix.dir/main.cpp.obj CMakeFiles/Rubix.dir/Model/RubiksCube.cpp.obj CMakeFiles/Rubix.dir/Model/RubiksCube3dArray.cpp.obj CMakeFiles/Rubix.dir/Model/RubiksCube1dArray.cpp.obj CMakeFiles/Rubix.dir/Model/RubiksCubeBitboard.cpp.obj
+build Rubix.exe: CXX_EXECUTABLE_LINKER__Rubix_Debug CMakeFiles/Rubix.dir/main.cpp.obj CMakeFiles/Rubix.dir/Model/RubiksCube.cpp.obj CMakeFiles/Rubix.dir/Model/RubiksCube3dArray.cpp.obj CMakeFiles/Rubix.dir/Model/RubiksCube1dArray.cpp.obj CMakeFiles/Rubix.dir/Model/RubiksCubeBitboard.cpp.obj CMakeFiles/Rubix.dir/PatternDatabases/NibbleArray.cpp.obj CMakeFiles/Rubix.dir/PatternDatabases/PatternDatabase.cpp.obj CMakeFiles/Rubix.dir/PatternDatabases/math.cpp.obj CMakeFiles/Rubix.dir/PatternDatabases/CornerPatternDatabase.cpp.obj CMakeFiles/Rubix.dir/PatternDatabases/CornerDBMaker.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Rubix.dir

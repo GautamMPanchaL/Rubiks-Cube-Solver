@@ -12,4 +12,16 @@ add_executable(Rubix main.cpp
         Solver/DFSSolver.h
         Solver/BFSSolver.h
         Solver/IDDFSSolver.h
+        Solver/IDAstarSolver.h
+        PatternDatabases/NibbleArray.h
+        PatternDatabases/NibbleArray.cpp
+        PatternDatabases/PatternDatabases.h
+        PatternDatabases/PatternDatabase.cpp
+        PatternDatabases/math.h
+        PatternDatabases/math.cpp
+        PatternDatabases/PermutationIndexer.h
+        PatternDatabases/CornerPatternDatabase.h
+        PatternDatabases/CornerPatternDatabase.cpp
+        PatternDatabases/CornerDBMaker.h
+        PatternDatabases/CornerDBMaker.cpp
 )
