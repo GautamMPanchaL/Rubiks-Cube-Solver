@@ -198,7 +198,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "PatternDatabases/PatternDatabases.h",
+			"path" : "PatternDatabases/PatternDatabase.h",
 			"sourceGroupIndex" : 1
 		},
 		{

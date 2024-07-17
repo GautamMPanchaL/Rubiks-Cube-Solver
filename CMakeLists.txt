@@ -15,7 +15,7 @@ add_executable(Rubix main.cpp
         Solver/IDAstarSolver.h
         PatternDatabases/NibbleArray.h
         PatternDatabases/NibbleArray.cpp
-        PatternDatabases/PatternDatabases.h
+        PatternDatabases/PatternDatabase.h
         PatternDatabases/PatternDatabase.cpp
         PatternDatabases/math.h
         PatternDatabases/math.cpp
