@@ -1,24 +1,13 @@
 # ninja log v6
-5	511	7420234183195622	CMakeFiles/Rubix.dir/main.cpp.obj	591d079e83bdc2ab
-3461	3929	7420777899830708	Rubix.exe	17d7e69ba6bab5c0
+25	2784	7428563619566201	CMakeFiles/Rubix.dir/main.cpp.obj	591d079e83bdc2ab
+2785	2913	7428563647157597	Rubix.exe	1cb1e88f91902a7f
 59	3445	7420777865811822	CMakeFiles/Rubix.dir/Model/RubiksCubeBitboard.cpp.obj	dbb2a0a7092c28db
 48	3449	7420777865706549	CMakeFiles/Rubix.dir/Model/RubiksCube3dArray.cpp.obj	2ac272094c7e7add
 54	3450	7420777865761959	CMakeFiles/Rubix.dir/Model/RubiksCube1dArray.cpp.obj	91e79030da48bcb1
 18	3223	7428558276684685	CMakeFiles/Rubix.dir/PatternDatabases/NibbleArray.cpp.obj	9e5dd474f79464cd
 36	3461	7420777865590600	CMakeFiles/Rubix.dir/Model/RubiksCube.cpp.obj	e024ec4a990c6d42
 108	643	7428558277590041	CMakeFiles/Rubix.dir/PatternDatabases/math.cpp.obj	75186fc488f7eef
-25	798	7428558665528061	build.ninja	debd947b7fde5116
+25	798	7432880315627019	build.ninja	debd947b7fde5116
 156	4861	7428558668274278	CMakeFiles/Rubix.dir/PatternDatabases/PatternDatabase.cpp.obj	82474e8b197cc0f8
 165	4867	7428558669054382	CMakeFiles/Rubix.dir/PatternDatabases/CornerPatternDatabase.cpp.obj	d547bde9c1f187c
 260	5208	7428558669309590	CMakeFiles/Rubix.dir/PatternDatabases/CornerDBMaker.cpp.obj	d78606caefe945a7
-5208	5591	7428558718785512	Rubix.exe	1cb1e88f91902a7f
-9	3304	7428562830797851	CMakeFiles/Rubix.dir/main.cpp.obj	591d079e83bdc2ab
-3305	3515	7428562863756864	Rubix.exe	1cb1e88f91902a7f
-27	2854	7428563037816362	CMakeFiles/Rubix.dir/main.cpp.obj	591d079e83bdc2ab
-2854	2996	7428563066082105	Rubix.exe	1cb1e88f91902a7f
-9	2855	7428563209514118	CMakeFiles/Rubix.dir/main.cpp.obj	591d079e83bdc2ab
-2856	2982	7428563237971968	Rubix.exe	1cb1e88f91902a7f
-23	2969	7428563516730451	CMakeFiles/Rubix.dir/main.cpp.obj	591d079e83bdc2ab
-2970	3117	7428563546194851	Rubix.exe	1cb1e88f91902a7f
-25	2784	7428563619566201	CMakeFiles/Rubix.dir/main.cpp.obj	591d079e83bdc2ab
-2785	2913	7428563647157597	Rubix.exe	1cb1e88f91902a7f
