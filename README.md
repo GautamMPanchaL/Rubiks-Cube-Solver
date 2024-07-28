@@ -1,7 +1,7 @@
 # Rubik's Cube Solver
 
 ## Project Overview
-I worked on a Rubik’s Cube Solver, where the goal was to determine the minimum number of steps required to solve a jumbled Rubik's Cube using advanced algorithms and heuristic techniques.
+We worked on a Rubik’s Cube Solver, where the goal was to determine the minimum number of steps required to solve a jumbled Rubik's Cube using advanced algorithms and heuristic techniques.
 
 ### Agenda
 Finding out the minimum number of steps to solve a jumbled Rubik's Cube.
