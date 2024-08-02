@@ -5,34 +5,15 @@
 #include "RubiksCube.h"
 
 class RubiksCube3dArray: public RubiksCube {
-private:
 
-    void rotateFace(int ind) {
-        char temp_arr[3][3] = {};
-
-        for(int i=0; i<3; i++) {
-            for(int j=0; j<3; j++) {
-                temp_arr[i][j] = cube[ind][i][j];
-            }
-        }
-
-        for(int i=0; i<3; i++) {
-            cube[ind][0][i] = temp_arr[2-i][0];
-        }
-        for(int i=0; i<3; i++) {
-            cube[ind][i][2] = temp_arr[0][i];
-        }
-        for(int i=0; i<3; i++) {
-            cube[ind][2][2-i] = temp_arr[i][2];
-        }
-        for(int i=0; i<3; i++) {
-            cube[ind][2-i][0] = temp_arr[2][2-i];
-        }
-    }
 public:
+    // a 3-D representation of the cube
     char cube[6][3][3]{};
 
+
+    // constructor for 3-D representation of cube
     RubiksCube3dArray(){
+        // init - a solved cube
         for(int i=0; i<6; i++) {
             for(int j=0; j<3; j++) {
                 for(int k=0; k<3; k++) {
@@ -261,6 +242,35 @@ public:
         }
         return *this;
     }
+
+private:
+    // face rotation using matrix - 90 degree rotation
+
+    void rotateFace(int ind) {
+
+        char temp_arr[3][3] = {};
+
+        for(int i=0; i<3; i++) {
+
+            for(int j=0; j<3; j++) {
+                temp_arr[i][j] = cube[ind][i][j];
+            }
+        }
+        // side cell rotation of 90 degree
+        for(int i=0; i<3; i++) {
+            cube[ind][0][i] = temp_arr[2-i][0];
+        }
+        for(int i=0; i<3; i++) {
+            cube[ind][i][2] = temp_arr[0][i];
+        }
+        for(int i=0; i<3; i++) {
+            cube[ind][2][2-i] = temp_arr[i][2];
+        }
+        for(int i=0; i<3; i++) {
+            cube[ind][2-i][0] = temp_arr[2][2-i];
+        }
+    }
+    
 };
 
 struct Hash3d {
