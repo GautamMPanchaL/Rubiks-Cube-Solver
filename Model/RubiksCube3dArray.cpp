@@ -41,7 +41,16 @@ public:
                 return COLOR::WHITE;
         }
     }
-
+    RubiksCube3dArray &operator=(const RubiksCube3dArray &r1) {
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 3; j++) {
+                for (int k = 0; k < 3; k++) {
+                    cube[i][j][k] = r1.cube[i][j][k];
+                }
+            }
+        }
+        return *this;
+    }
     bool isSolved() const override {
         for(int i=0; i<6; i++) {
             for(int j=0; j<3; j++) {
@@ -232,16 +241,7 @@ public:
         return true;
     }
 
-    RubiksCube3dArray &operator=(const RubiksCube3dArray &r1) {
-        for (int i = 0; i < 6; i++) {
-            for (int j = 0; j < 3; j++) {
-                for (int k = 0; k < 3; k++) {
-                    cube[i][j][k] = r1.cube[i][j][k];
-                }
-            }
-        }
-        return *this;
-    }
+
 
 private:
     // face rotation using matrix - 90 degree rotation

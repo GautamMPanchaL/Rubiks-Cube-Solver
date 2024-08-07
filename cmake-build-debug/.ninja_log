@@ -11,3 +11,6 @@
 156	4861	7428558668274278	CMakeFiles/Rubix.dir/PatternDatabases/PatternDatabase.cpp.obj	82474e8b197cc0f8
 165	4867	7428558669054382	CMakeFiles/Rubix.dir/PatternDatabases/CornerPatternDatabase.cpp.obj	d547bde9c1f187c
 260	5208	7428558669309590	CMakeFiles/Rubix.dir/PatternDatabases/CornerDBMaker.cpp.obj	d78606caefe945a7
+168	9778	7447500177603776	CMakeFiles/Rubix.dir/Model/RubiksCube3dArray.cpp.obj	2ac272094c7e7add
+79	10093	7447500176712490	CMakeFiles/Rubix.dir/main.cpp.obj	591d079e83bdc2ab
+10093	11292	7447500276847955	Rubix.exe	1cb1e88f91902a7f
